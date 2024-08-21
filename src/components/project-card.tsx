@@ -43,12 +43,13 @@ export function ProjectCard({
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
+        "flex flex-col overflow-hidden select-none border hover:shadow-lg transition-all duration-300 ease-out h-full"
       }
     >
       <Link
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
+
       >
         {video && (
           <video
@@ -77,12 +78,13 @@ export function ProjectCard({
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+          <Markdown className="prose max-w-full flex gap-1  text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
             {description}
           </Markdown>
+
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex flex-col px-2">
+      <CardContent className="mt-auto flex flex-col px-2 ">
         {tags && tags.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-1">
             {tags?.map((tag) => (
@@ -97,7 +99,7 @@ export function ProjectCard({
           </div>
         )}
       </CardContent>
-      <CardFooter className="px-2 pb-2">
+      <CardFooter className="px-2 pb-2 mt-2">
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
             {links?.map((link, idx) => (

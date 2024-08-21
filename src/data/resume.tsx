@@ -36,7 +36,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "Khawarsultan.developer@gmail.com",
@@ -103,7 +103,7 @@ export const DATA = {
       active: true,
       description: "Medium Blogs app allowing users to write, view, and manage stories. Features include story creation, tagging, filtering, Google authentication, and search functionality. Users can like, comment, reply, save, and share stories, with profile management for drafts, published stories, and saved content.",
       technologies: [
-        "- Next.js",
+        "Next.js",
         "Neon Database",
         "Drizzle ORM",
         "TypeScript",

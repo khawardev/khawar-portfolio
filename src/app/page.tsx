@@ -19,14 +19,14 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
-              <div className=" flex items-center gap-2">
+              <div className=" flex items-center gap-1">
                 <BlurFadeText
                   delay={BLUR_FADE_DELAY}
                   className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                   yOffset={8}
                   text={`hi, i'm ${DATA.name.split(" ")[0]} `}
                 />
-                <Image alt="avatar" src={'https://attic.sh/prlh3e3dfai4h5nrdintn9ebmxxw'} className="transform scale-x-[-1] mb-1" width={70} height={70} />
+                <Image alt="avatar" src={'https://attic.sh/prlh3e3dfai4h5nrdintn9ebmxxw'} className="transform scale-x-[-1] mb-1" width={65} height={65} />
 
               </div>
               <BlurFadeText

@@ -54,25 +54,11 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
       email: {
         name: "Send Email",
-        url: "Khawarsultan.developer@gmail.com",
+        url: "mailto:Khawarsultan.developer@gmail.com",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -141,7 +127,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://ucarecdn.com/0934c09f-dc1f-4ae1-b4ae-d8890ccb4d38/103_2x_shots_so.png",
+      image: "https://ucarecdn.com/a42ee8b5-ff23-4843-b01e-9ade48667b2b/115_3x_shots_so.png",
       video: "",
     },
     {

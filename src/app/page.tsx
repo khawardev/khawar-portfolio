@@ -19,14 +19,14 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
-              <div className=" flex items-center ">
+              <div className=" flex items-center  md:gap-4 gap-1">
                 <BlurFadeText
                   delay={BLUR_FADE_DELAY}
                   className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                   yOffset={8}
                   text={`hi, i'm ${DATA.name.split(" ")[0]} `}
                 />
-                <Image alt="avatar" src={'https://attic.sh/prlh3e3dfai4h5nrdintn9ebmxxw'} className="transform scale-x-[-1] mb-1" width={65} height={65} />
+                <Image alt="avatar" src={'https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/1f1f5-1f1f0.svg'} className=" mb-4" width={40} height={35} />
 
               </div>
               <BlurFadeText
@@ -130,7 +130,7 @@ export default function Page() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Check out my latest work
                 </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="text-muted-foreground  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of projects, from simple
                   websites to complex web applications. Here are a few of my
                   favorites.
@@ -172,15 +172,14 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Wanna create something awesome together? Reach out at{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={DATA.contact.social.email.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  khawarsultan.developer@gmail.com
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll respond whenever I able to ...
               </p>
             </div>
           </BlurFade>

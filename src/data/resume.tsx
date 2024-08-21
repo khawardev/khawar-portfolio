@@ -111,6 +111,40 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Medium Blogs Next App",
+      href: "https://mediumblogs.vercel.app/",
+      dates: "Jul 2024 - Aug 2024",
+      active: true,
+      description: "Medium Blogs app allowing users to write, view, and manage stories. Features include story creation, tagging, filtering, Google authentication, and search functionality. Users can like, comment, reply, save, and share stories, with profile management for drafts, published stories, and saved content.",
+      technologies: [
+        "- Next.js",
+        "Neon Database",
+        "Drizzle ORM",
+        "TypeScript",
+        "NextAuth",
+        "Tailwind CSS",
+        "Uploadcare",
+        "SWR",
+        "Jotai",
+        "Shadcn UI",
+        " Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://mediumblogs.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KhawarSultan/medium-next-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/0934c09f-dc1f-4ae1-b4ae-d8890ccb4d38/103_2x_shots_so.png",
+      video: "",
+    },
+    {
       title: "Vendra Ecommerce MERN App",
       href: "https://github.com/khawarsultan/vendra-react-app",
       dates: "Jan 2023 - Feb 2024",
@@ -136,9 +170,9 @@ export const DATA = {
         "",
     },
     {
-      title: "Netflix Verse Next app",
+      title: "Netflix Verse React app",
       href: "https://netflix-verse.vercel.app/",
-      dates: "Sep 2023 - Oct 2023",
+      dates: "Jun 2024 - Jul 2024",
       active: true,
       description:
         "Created the Netflix-verse React app featuring dynamic background images on the home page, powered by the TMDB API. Developed dynamic components showcasing trending and popular movies and TV shows with daily and weekly trend highlights. Integrated React Select for efficient filtering of content. The app includes comprehensive movie details pages with trailer playback, cast information, official videos, and recommendations for similar movies or TV shows, delivering an engaging and seamless user experience.",
@@ -163,6 +197,196 @@ export const DATA = {
       image: "https://ucarecdn.com/f8bc2b44-cf5c-4765-9f31-5e124f3fbbf9/571_2x_shots_so.png",
       video: "",
     },
+    {
+      title: "Weatherify React App",
+      href: "https://weatherifypro.vercel.app/",
+      dates: "May 2024 - Jun 2024",
+      active: true,
+      description:
+        "Developed the Weatherify React app, integrating real-time weather data from a Weather API. The app features a responsive design with support for both dark and light modes, optimizing the user experience. It displays key weather conditions including date, day, sunrise, sunset, air quality, humidity, visibility, and atmospheric pressure. Additionally, a detailed forecast section provides temperature and wind speed information throughout the day, ensuring users have access to comprehensive weather updates.",
+      technologies: [
+        "React JS",
+        "Api Integration",
+        "Redux Toolkit",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://weatherifypro.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KhawarSultan/Weatherify-React-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/244e963e-9404-4294-949f-68ef9469e4d9/128_3x_shots_so.png",
+      video: "",
+    },
+    {
+      title: "Docket React App",
+      href: "https://docketnotes.vercel.app/",
+
+      dates: "Feb 2024 - March 2024",
+      active: true,
+      description: "Developed the Docket React App, a platform for users to organize and manage their notes efficiently. Key features include the ability to create, update, and delete notes, as well as create and manage folders for better organization. Users can associate notes with specific folders, enhancing productivity. The app also incorporates a powerful search feature, allowing users to quickly locate notes or folders by keywords or phrases. State management is handled using Redux Toolkit, ensuring efficient and centralized data handling throughout the application.",
+      technologies: [
+        "React JS",
+        "Typescript",
+        "Redux Toolkit",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://docketnotes.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KhawarSultan/Docket-React-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/afdc39ea-504e-4827-8ba8-de3d5504d8cd/989_3x_shots_so.png",
+      video: "",
+    },
+    {
+      title: "Jsdvstore Ecommerce React App",
+      href: "https://jsdvstore-ecommerce-react-app.vercel.app/",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description: "Created the Jsdvstore Ecommerce React app to deliver a seamless shopping experience. The app integrates a custom API to display a wide range of products, with category-specific functionality to fetch and showcase related items. I developed dynamic search capabilities, allowing users to quickly locate desired products. Additionally, the app features a user-friendly product detail page with add to cart functionality, enabling users to adjust quantities while automatically updating the total and individual prices for a smooth and intuitive shopping experience.",
+      technologies: [
+        "React JS",
+        "Api Integration",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jsdvstore-ecommerce-react-app.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KhawarSultan/Jsdvstore-Ecommerce-React-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/3a1edfd2-47d3-40ab-b4f0-574873dc1ea6/105_3x_shots_so.png",
+      video: "",
+    },
+    {
+      title: "Seppo Landing Page Website",
+      href: "https://seppoo.netlify.app/",
+      dates: "March 2024 - April 2024",
+      active: true,
+      description: "Seppo Landing Page website is a professionally designed and responsive web page built using HTML, CSS, JavaScript, and Bootstrap CSS. It serves as a captivating and informative introduction to the Seppo brand or product.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Bootstrap",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://seppoo.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KhawarSultan/Seppo-Website",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/9e01c454-73e6-472f-a018-425b88bc4284/457_2x_shots_so.png",
+      video: "",
+    },
+    {
+      title: "Apple iPhone 13 Clone",
+      href: "https://applephone13.netlify.app/",
+      dates: "April 2024 - May 2024",
+      active: true,
+      description: "Apple iPhone 13 Clone website using HTML, CSS, JavaScript, and Tailwind CSS. It showcases the iPhone 13's features, specifications, and visuals, allowing users to explore and compare models. The design closely emulates the official Apple website, offering a visually appealing and immersive experience.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://applephone13.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KhawarSultan/Apple-Website-Clone",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/e2c7e4eb-7a6f-4693-8ced-69bf655d0d82/322_3x_shots_so.png",
+      video: "",
+    },
+    {
+      title: "W3School Clone Website",
+      href: "https://schoolw3.netlify.app/",
+      dates: "Nov 2023 - Dec 2023",
+      active: true,
+      description: "W3School Clone website to replicate the design and functionality of the popular W3Schools website. Built using HTML, CSS, and JavaScript, the site offers comprehensive tutorials, references, and examples for various web development technologies. Users can explore the site to learn and practice different programming languages, web development techniques, and frameworks, all within a familiar interface similar to the original site.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Javascript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://schoolw3.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KhawarSultan/W3School-Website-Clone",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/e7d21cb8-6b5d-451f-b0f1-c10059e82adf/925_3x_shots_so.png",
+      video: "",
+    },
+    {
+      title: "Modern Apartment React app",
+      href: "https://appartmentapp.vercel.app/",
+      dates: "Sep 2023 - Oct 2023",
+      active: true,
+      description: "Developed The Modern Apartment static React app, a responsive web application. Utilized React.js for dynamic UI rendering, CSS for styling, JavaScript for interactivity, and Bootstrap CSS for a responsive design. The app allows users to explore various apartments and view detailed property information, offering a seamless browsing experience.",
+      technologies: [
+        "React JS",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://appartmentapp.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KhawarSultan/Modern-Appartment-React-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/0934c09f-dc1f-4ae1-b4ae-d8890ccb4d38/103_2x_shots_so.png",
+      video: "",
+    },
+
   ],
 
 } as const;

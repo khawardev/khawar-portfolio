@@ -113,7 +113,7 @@ export default function Page() {
           <div className="flex flex-wrap gap-1 select-none">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge className=" text-[13px] " key={skill}>{skill}</Badge>
+                <Badge className=" text-[12.5px] " key={skill}>{skill}</Badge>
               </BlurFade>
             ))}
           </div>

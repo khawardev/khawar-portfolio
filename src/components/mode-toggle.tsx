@@ -1,6 +1,7 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
 
@@ -9,10 +10,13 @@ export function ModeToggle() {
 
   return (
     <Button
+
       variant="ghost"
       type="button"
-      size="icon"
-      className="px-2"
+      className={cn(
+        buttonVariants({ variant: "ghost", size: "icon" }),
+        "size-12"
+      )}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       <SunIcon className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:hidden dark:text-neutral-200" />

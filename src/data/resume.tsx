@@ -81,7 +81,7 @@ export const DATA = {
       start: "Sep 2023",
       end: "Jun 2024",
       description: "Developed and maintained web applications using Next.js and React.js, focusing on responsive design and functionalities.Collaborated closely with backend developers to integrate APIs, optimizing the overall performance of web applications by 30% through effective database implementation.",
-      description2: "Implemented state management with Redux Toolkit, significantly enhancing data handling and application performance while ensuring type safety with TypeScript.Leveraged modern CSS frameworks such as Tailwind CSS and Bootstrap, along with UI libraries like Shadcn and MUI, to create visually appealing interfaces.",
+      description2: "Implemented state management solutions with Redux Toolkit, significantly enhancing data handling and application performance while ensuring type safety with TypeScript.Leveraged modern CSS frameworks such as Tailwind CSS and Bootstrap, along with UI libraries like Shadcn and MUI, to create visually appealing interfaces.",
     },
   ],
   education: [

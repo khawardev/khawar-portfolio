@@ -5,9 +5,8 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+import SmoothScroller from "@/components/Lenis";
 import "./globals.css";
-
-import SmoothScroller from "@/components/Lenis"; // Adjust the import path as needed
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -65,7 +64,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
-            <SmoothScroller />
+            {/* <SmoothScroller /> */}
             {children}
             <Navbar />
           </TooltipProvider>

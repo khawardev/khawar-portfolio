@@ -63,8 +63,8 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
+          <SmoothScroller />
           <TooltipProvider delayDuration={0}>
-            {/* <SmoothScroller /> */}
             {children}
             <Navbar />
           </TooltipProvider>

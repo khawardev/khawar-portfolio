@@ -141,7 +141,7 @@ export const Icons = {
     </svg>
   ),
   resume: (props: IconProps) => (
-    <TiDocument size={33} {...props} />
+    <TiDocument size={32} {...props} />
   ),
   googleDrive: (props: IconProps) => (
     <svg viewBox="0 0 87.3 78" xmlns="http://www.w3.org/2000/svg" {...props}>

@@ -26,7 +26,7 @@ export default function Page() {
                   yOffset={8}
                   text={`hi, i'm ${DATA.name.split(" ")[0]} `}
                 />
-                <Image alt="avatar" src={'https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/1f1f5-1f1f0.svg'} className=" mb-4" width={40} height={35} />
+                {/* <Image alt="avatar" src={'https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/1f1f5-1f1f0.svg'} className=" mb-4" width={40} height={35} /> */}
 
               </div>
               <BlurFadeText
@@ -40,7 +40,7 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
+                <AvatarFallback><AvatarImage alt={DATA.name} src={DATA.initials} /></AvatarFallback>
               </Avatar>
             </BlurFade>
           </div>

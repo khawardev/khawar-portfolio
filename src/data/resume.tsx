@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "khawar sultan",
-  initials: "KS",
+  initials: "https://attic.sh/r44qhgzfghw52b64th6ixln2hfbx",
   url: "https://khawarsultan.vercel.app",
   location: "Faislabad, Pakistan, PK",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
@@ -11,7 +11,7 @@ export const DATA = {
     "Frontend Engineer, I love building things.",
   summary:
     "Software Engineer with experience building web applications using Next.js, React JS, TypeScript, and Redux Toolkit. Proficient in delivering full- stack applications in collaboration with cross - functional teams.Improved web app responsiveness and increased user engagement by 25 % through effective interfaces.",
-  avatarUrl: "https://attic.sh/r44qhgzfghw52b64th6ixln2hfbx",
+  avatarUrl: "https://ucarecdn.com/363e7b2e-983d-49a5-975a-085841bc8aa1/Untitleddesign.gif",
   skills: [
     "Next.js",
     "React.js",

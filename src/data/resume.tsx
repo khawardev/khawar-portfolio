@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "khawar sultan",
   initials: "KS",
-  url: "https://dillion.io",
+  url: "https://khawarsultan.vercel.app",
   location: "Faislabad, Pakistan, PK",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -78,8 +78,8 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Engineer",
       logoUrl: "https://ucarecdn.com/aaceefcc-642c-488f-9e2a-b54194984e7b/1631355153881.jpeg",
-      start: "Sep 2023",
-      end: "Jun 2024",
+      start: "",
+      end: "Remote",
       description: "Developed and maintained web applications using Next.js and React.js, focusing on responsive design and functionalities.Collaborated  with backend developers to integrate APIs, optimizing the overall performance of web applications by 30% through effective database implementation.",
       description2: "Implemented state management solutions with Redux Toolkit, significantly enhancing data handling and application performance while ensuring type safety with TypeScript.Leveraged modern CSS frameworks such as Tailwind CSS and Bootstrap, along with UI libraries like Shadcn and MUI, to create visually appealing interfaces.",
     },

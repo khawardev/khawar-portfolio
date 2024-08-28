@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "khawar sultan",
-  initials: "KS",
+  initials: "https://attic.sh/r44qhgzfghw52b64th6ixln2hfbx",
   url: "https://khawarsultan.vercel.app",
   location: "Faislabad, Pakistan, PK",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",

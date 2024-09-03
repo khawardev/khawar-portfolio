@@ -8,7 +8,7 @@ export const DATA = {
   location: "Faislabad, Pakistan, PK",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Frontend Engineer, I love building things.",
+    "Software Engineer, I love building things.",
   summary:
     "Software Engineer with experience building web applications using Next.js, React JS, TypeScript, and Redux Toolkit. Proficient in delivering full- stack applications in collaboration with cross - functional teams.Improved web app responsiveness and increased user engagement by 25 % through effective interfaces.",
   avatarUrl: "https://ucarecdn.com/363e7b2e-983d-49a5-975a-085841bc8aa1/-/scale_crop/300x300/",
@@ -22,6 +22,7 @@ export const DATA = {
     "SASS",
     "Drizzle ORM",
     "NeonDB",
+    "Node.js",
     "MongoDB",
     "Swr",
     "Redux Toolkit",

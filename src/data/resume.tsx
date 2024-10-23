@@ -139,6 +139,79 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Groupe Mopakam Ecommerce Next App",
+      href: "https://groupemopakam.vercel.app/en",
+      dates: "Sep 2024 - Oct 2024",
+      active: true,
+      description: "The Groupe Mopakam Next.js eCommerce Application is a comprehensive platform designed for seamless online shopping. Built with Next.js, it incorporates Clerk authentication for secure logins via email magic links, ensuring user safety. The application features a modern, responsive design using Tailwind CSS and Shadcn UI. On the backend, it leverages Neon for a serverless PostgreSQL database, while Drizzle ORM manages the schema with the added benefits of TypeScript for type safety. Key functionalities include product display, a shopping cart, and checkout for customers, alongside an admin dashboard that enables efficient product, category, order, and customer management with full CRUD capabilities. This creates a robust and user-friendly eCommerce experience for both shoppers and administrators.",
+      technologies: [
+                "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Shadcn UI",
+    "Clerk Authentication",
+    "Neon DB",
+    "Drizzle ORM",
+    "Typescript",
+    "Upload Thing"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://groupemopakam.vercel.app/en",
+          icon: <Icons.globe className="size-3" />,
+        },
+        
+      ],
+      image: "https://ucarecdn.com/7abb882d-8a8d-41e2-a015-a7fb157966ef/488_2x_shots_so.png",
+      video: "",
+    },
+    {
+      title: "Onma Next App",
+      href: "https://onma.vercel.app/",
+      dates: "Jul 2024 - Aug 2024",
+      active: true,
+      description: "Onma web application using Next.js, focusing on server-side rendering for fast performance and SEO benefits. Integrated dynamic content with APIs and built responsive components using React.js and Tailwind CSS. Ensured a user-friendly interface with efficient navigation through Next.js’s routing system, while providing a seamless experience across devices.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://onma.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        
+      ],
+      image: "https://ucarecdn.com/82ca515e-c900-45de-9702-e7afb4ca58a0/284_2x_shots_so.png",
+      video: "",
+    },
+    {
+      title: "Mikande Next App",
+      href: "https://mikande.vercel.app/",
+      dates: "Sep 2024 - Oct 2024",
+      active: true,
+      description: "Mikande web application using Next.js, leveraging server-side rendering for improved performance and SEO optimization. Integrated real-time APIs to display dynamic content and built responsive, reusable components using React.js, Tailwind CSS, and Material UI. Ensured a smooth, mobile-friendly user experience with Next.js's file-based routing for efficient navigation and structure.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://mikande.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://ucarecdn.com/0f567744-3ddc-4eb6-a8e0-808326bdc4ad/876_2x_shots_so.png",
+      video: "",
+    },
+    {
       title: "Vendra Ecommerce MERN App",
       href: "https://github.com/khawarsultan/vendra-react-app",
       dates: "Jan 2023 - Feb 2024",

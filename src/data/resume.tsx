@@ -109,7 +109,7 @@ export const DATA = {
       href: "https://mediumblogs.vercel.app/",
       dates: "Jul 2024 - Aug 2024",
       active: true,
-      description: "Medium Blogs app allowing users to write, view, and manage stories. Features include story creation, tagging, filtering, Google authentication, and search functionality. Users can like, comment, reply, save, and share stories, with profile management for drafts, published stories, and saved content.",
+      description: "Medium Blogs app allowing users to write, view stories. Features include story creation, tagging, filtering, Google authentication, and search functionality. Users can like, comment, reply, save, and share stories, with profile management for drafts, published stories, and saved content.",
       technologies: [
         "Next.js",
         "Neon Database",
@@ -145,15 +145,15 @@ export const DATA = {
       active: true,
       description: "The Groupe Mopakam Next.js eCommerce Application is a comprehensive platform designed for seamless online shopping. Built with Next.js, it incorporates Clerk authentication for secure logins via email magic links, ensuring user safety. The application features a modern, responsive design using Tailwind CSS and Shadcn UI. On the backend, it leverages Neon for a serverless PostgreSQL database, while Drizzle ORM manages the schema with the added benefits of TypeScript for type safety. Key functionalities include product display, a shopping cart, and checkout for customers, alongside an admin dashboard that enables efficient product, category, order, and customer management with full CRUD capabilities. This creates a robust and user-friendly eCommerce experience for both shoppers and administrators.",
       technologies: [
-                "Next.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "Shadcn UI",
-    "Clerk Authentication",
-    "Neon DB",
-    "Drizzle ORM",
-    "Typescript",
-    "Upload Thing"
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Clerk Authentication",
+        "Neon DB",
+        "Drizzle ORM",
+        "Typescript",
+        "Upload Thing"
       ],
       links: [
         {
@@ -161,7 +161,7 @@ export const DATA = {
           href: "https://groupemopakam.vercel.app/en",
           icon: <Icons.globe className="size-3" />,
         },
-        
+
       ],
       image: "https://ucarecdn.com/7abb882d-8a8d-41e2-a015-a7fb157966ef/488_2x_shots_so.png",
       video: "",
@@ -184,7 +184,7 @@ export const DATA = {
           href: "https://onma.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-        
+
       ],
       image: "https://ucarecdn.com/82ca515e-c900-45de-9702-e7afb4ca58a0/284_2x_shots_so.png",
       video: "",

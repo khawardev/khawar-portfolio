@@ -131,7 +131,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/KhawarSultan/medium-next-app",
+          href: "https://github.com/Khawardev/mediumblogs-next-app",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -227,9 +227,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/khawarsultan/vendra-react-app",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://vendra.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "https://ucarecdn.com/1150b2c1-0a7e-4f86-86df-c503c5514a8d/743_3x_shots_so.png",
@@ -257,7 +257,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/KhawarSultan/Netflix-verse-React-app",
+          href: "https://github.com/khawardev/netflixverse-react-app",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -285,7 +285,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/KhawarSultan/Weatherify-React-app",
+          href: "https://github.com/khawardev/weatherify-react-app",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -295,7 +295,6 @@ export const DATA = {
     {
       title: "Docket React App",
       href: "https://docketnotes.vercel.app/",
-
       dates: "Feb 2024 - March 2024",
       active: true,
       description: "Developed the Docket React App, a platform for users to organize and manage their notes efficiently. Key features include the ability to create, update, and delete notes, as well as create and manage folders for better organization. Users can associate notes with specific folders, enhancing productivity. The app also incorporates a powerful search feature, allowing users to quickly locate notes or folders by keywords or phrases. State management is handled using Redux Toolkit, ensuring efficient and centralized data handling throughout the application.",
@@ -313,7 +312,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/KhawarSultan/Docket-React-app",
+          href: "https://github.com/khawardev/docket-react-app",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -339,7 +338,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/KhawarSultan/Jsdvstore-Ecommerce-React-app",
+          href: "https://github.com/khawardev/jsdvstore-react-app",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -364,11 +363,6 @@ export const DATA = {
           href: "https://seppoo.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/KhawarSultan/Seppo-Website",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
       image: "https://ucarecdn.com/9e01c454-73e6-472f-a018-425b88bc4284/457_2x_shots_so.png",
       video: "",
@@ -391,11 +385,6 @@ export const DATA = {
           href: "https://applephone13.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/KhawarSultan/Apple-Website-Clone",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
       image: "https://ucarecdn.com/e2c7e4eb-7a6f-4693-8ced-69bf655d0d82/322_3x_shots_so.png",
       video: "",
@@ -416,11 +405,6 @@ export const DATA = {
           type: "Website",
           href: "https://schoolw3.netlify.app/",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/KhawarSultan/W3School-Website-Clone",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "https://ucarecdn.com/e7d21cb8-6b5d-451f-b0f1-c10059e82adf/925_3x_shots_so.png",
@@ -446,7 +430,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/KhawarSultan/Modern-Appartment-React-app",
+          href: "https://github.com/khawardev/appartment-react-app",
           icon: <Icons.github className="size-3" />,
         },
       ],

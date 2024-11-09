@@ -46,7 +46,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/KhawarSultan",
+        url: "https://github.com/khawardev",
         icon: Icons.github,
         navbar: true,
       },
@@ -64,7 +64,7 @@ export const DATA = {
       },
       resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/12HkJK4JQSem-RJnB3hY85iv-r_45byaM/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1aHV6xpUNw5ahah5VOG-rVVXkVeEqB6fr/view?usp=sharing",
         icon: Icons.resume,
         navbar: true,
       },

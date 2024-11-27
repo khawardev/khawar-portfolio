@@ -6,12 +6,12 @@ export const DATA = {
   initials: "https://attic.sh/r44qhgzfghw52b64th6ixln2hfbx",
   url: "https://khawarsultan.vercel.app",
   location: "Faislabad, Pakistan, PK",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "",
   description:
     "Software Engineer, I love building things.",
   summary:
     "Software Engineer with experience building web applications using Next.js, React JS, TypeScript, and Redux Toolkit. Proficient in delivering full- stack applications in collaboration with cross - functional teams.Improved web app responsiveness and increased user engagement by 25 % through effective interfaces.",
-  avatarUrl: "https://ucarecdn.com/363e7b2e-983d-49a5-975a-085841bc8aa1/-/scale_crop/300x300/",
+  avatarUrl: "https://utfs.io/f/fKI0ZRS9jAMIIJtGm3vKMYukOVyeQ8IAlGZRXB735Pr6WSiD",
   skills: [
     "Next.js",
     "React.js",
@@ -76,11 +76,11 @@ export const DATA = {
       company: "Traxim Technologies",
       href: "https://traximtech.com/",
       badges: [],
-      location: "Remote",
+      location: "",
       title: "Frontend Engineer",
       logoUrl: "https://ucarecdn.com/aaceefcc-642c-488f-9e2a-b54194984e7b/1631355153881.jpeg",
       start: "",
-      end: "Remote",
+      end: "",
       description: "Developed and maintained web applications using Next.js and React.js, focusing on responsive design and functionalities.Collaborated  with backend developers to integrate APIs, optimizing the overall performance of web applications by 30% through effective database implementation.",
       description2: "Implemented state management solutions with Redux Toolkit, significantly enhancing data handling and application performance while ensuring type safety with TypeScript.Leveraged modern CSS frameworks such as Tailwind CSS and Bootstrap, along with UI libraries like Shadcn and MUI, to create visually appealing interfaces.",
     },

@@ -166,29 +166,29 @@ export const DATA = {
       image: "https://ucarecdn.com/7abb882d-8a8d-41e2-a015-a7fb157966ef/488_2x_shots_so.png",
       video: "",
     },
-    {
-      title: "Onma Next App",
-      href: "https://onma.vercel.app/",
-      dates: "Jul 2024 - Aug 2024",
-      active: true,
-      description: "Onma web application using Next.js, focusing on server-side rendering for fast performance and SEO benefits. Integrated dynamic content with APIs and built responsive components using React.js and Tailwind CSS. Ensured a user-friendly interface with efficient navigation through Next.js’s routing system, while providing a seamless experience across devices.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://onma.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
+    // {
+    //   title: "Onma Next App",
+    //   href: "https://onma.vercel.app/",
+    //   dates: "Jul 2024 - Aug 2024",
+    //   active: true,
+    //   description: "Onma web application using Next.js, focusing on server-side rendering for fast performance and SEO benefits. Integrated dynamic content with APIs and built responsive components using React.js and Tailwind CSS. Ensured a user-friendly interface with efficient navigation through Next.js’s routing system, while providing a seamless experience across devices.",
+    //   technologies: [
+    //     "Next.js",
+    //     "TypeScript",
+    //     "Tailwind CSS",
+    //     "Shadcn UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://onma.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
 
-      ],
-      image: "https://ucarecdn.com/82ca515e-c900-45de-9702-e7afb4ca58a0/284_2x_shots_so.png",
-      video: "",
-    },
+    //   ],
+    //   image: "https://ucarecdn.com/82ca515e-c900-45de-9702-e7afb4ca58a0/284_2x_shots_so.png",
+    //   video: "",
+    // },
     {
       title: "Mikande Next App",
       href: "https://mikande.vercel.app/",

@@ -105,6 +105,28 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Next Blocks",
+      href: "https://nextblocks.vercel.app/",
+      dates: "Sep 2024 - Present",
+      active: true,
+      description: "Next Blocks is a UI components library built using Next.js, Tailwind CSS, and Shadcn UI. It includes ready-to-use categorized blocks, change logs, and developer documentation. Perfect for transforming your applications with reusable components and seamless integrations with third-party tools like Drizzle ORM, custom authentication systems, and database connections.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn UI"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nextblocks.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "https://ucarecdn.com/54002e2a-59bb-4320-9ea8-5db55d02655f/331_1x_shots_so.png",
+      video: ""
+    },
+    {
       title: "Medium Blogs Next App",
       href: "https://mediumblogs.vercel.app/",
       dates: "Jul 2024 - Aug 2024",

@@ -5,13 +5,13 @@ export const DATA = {
   name: "khawar sultan",
   initials: "https://attic.sh/r44qhgzfghw52b64th6ixln2hfbx",
   url: "https://khawarsultan.vercel.app",
-  location: "Faislabad, Pakistan, PK",
+  location: "Islamabad, Pakistan, PK",
   locationLink: "",
   description:
-    "Software Engineer, I love building things.",
+    "Software Engineer, I love building applications.",
   summary:
     "Software Engineer with experience building web applications using Next.js, React JS, TypeScript, and Redux Toolkit. Proficient in delivering full- stack applications in collaboration with cross - functional teams.Improved web app responsiveness and increased user engagement by 25 % through effective interfaces.",
-  avatarUrl: "https://utfs.io/f/fKI0ZRS9jAMIIJtGm3vKMYukOVyeQ8IAlGZRXB735Pr6WSiD",
+  avatarUrl: "https://pbs.twimg.com/profile_images/1924051025700196352/5FPzIXl5_400x400.jpg",
   skills: [
     "Next.js",
     "React.js",
@@ -24,6 +24,9 @@ export const DATA = {
     "NeonDB",
     "Node.js",
     "MongoDB",
+    "MongoDB",
+    "Supabase",
+    "Pinecone DB",
     "Swr",
     "Redux Toolkit",
     "Jotai",
@@ -104,6 +107,31 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Tech nod",
+      href: "https://technod.store/",
+      dates: "Apr 2025 - Present",
+      active: true,
+      description: "Technod Web Application is a modern computer-build eCommerce platform developed using Next.js, TypeScript, Supabase, and Drizzle ORM. The application features a robust Admin Panel where administrators can manage products, brands, users, and suppliers, along with a dashboard that provides analytics and insights. On the user side, customers can seamlessly browse and explore computer products, making it a user-friendly and efficient platform for both management and shopping.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "Drizzle orm",
+        "Shadcn UI",
+        "Origin UI"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://technod.store/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "https://i.postimg.cc/y82RdPNh/382-1x-shots-so.png",
+      video: ""
+    },
     {
       title: "Next Blocks",
       href: "https://nextblocks.vercel.app/",

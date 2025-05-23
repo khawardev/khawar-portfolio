@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer, I love building applications.",
   summary:
     "Software Engineer with experience building web applications using Next.js, React JS, TypeScript, and Redux Toolkit. Proficient in delivering full- stack applications in collaboration with cross - functional teams.Improved web app responsiveness and increased user engagement by 25 % through effective interfaces.",
-  avatarUrl: "https://i.postimg.cc/q7QZHP9w/e9cd7094-4d1d-4bfe-b9be-432f2d750e8c.png",
+  avatarUrl: "https://i.postimg.cc/T3nHPLWt/e9cd7094-4d1d-4bfe-b9be-432f2d750e8c.png",
   skills: [
     "Next.js",
     "React.js",
